@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "esModuleInterop": true,
+    "lib": ["dom"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "outDir": "dist",
+    "resolveJsonModule": true,
+    "rootDir": "src",
+    "sourceMap": true,
+    "target": "es2020",
+    "useUnknownInCatchVariables": true,
+    "noErrorTruncation": true
+  },
+  "include": ["src/index.ts"],
+  "exclude": ["dist", "**/node_modules", "**/*.test.ts"],
+  "extends": "@tsconfig/node16/tsconfig.json",
+}
